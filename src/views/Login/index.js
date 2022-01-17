@@ -22,7 +22,7 @@ const Login = () => {
     email: Yup.string().email('Invalid Email').required('Required!'),
     password: Yup.string()
       .min(4, 'Your password is too short!')
-      .max(9, 'Your password is too long!')
+      .max(20, 'Your password is too long!')
       .required('Required!'),
   });
 

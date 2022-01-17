@@ -25,7 +25,6 @@ const Theme = responsiveFontSizes(
       },
       background: {
         paper: 'rgb(255,255,255,0.7)',
-        default: 'white',
       },
       secondary: {
         main: '#28DC8E',
